@@ -1,5 +1,4 @@
-languageCode = "en-us"
-title = "Hugo template repository"
+
 baseURL = "https://pmikus.github.io/"
 googleanalytics = ""
 disqusShortname = ""
@@ -21,3 +20,13 @@ path = "github.com/pmikus/hugo-theme-massively"
 #     featuredPost = "true"
 #     paginationPages = 2
 #     showFirstLast = false
+
+[languages]
+[languages.en]
+  languageName = "English"
+  languageCode = "en-us"
+  title = "Bauty salon"
+[languages.sk]
+  languageName = "Slovak"
+  languageCode = "sk-sk"
+  title = "Bauty salon"
