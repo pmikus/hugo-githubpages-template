@@ -1,10 +1,10 @@
 languageCode = "en-us"
 title = "Hugo template repository"
-baseURL = "https://pmikus.github.io/"
+baseURL = "https://pmikus.github.io/hugo-githubpages-template/"
 theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
-disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+disableKinds = ["taxonomy", "section"]
 
 # [params]
   # set below parameter to define a favicon
