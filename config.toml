@@ -1,5 +1,5 @@
 
-baseURL = "https://pmikus.github.io/"
+baseURL = "https://pmikus.github.io/hugo-theme-massively/"
 googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "section"]
@@ -22,11 +22,11 @@ path = "github.com/pmikus/hugo-theme-massively"
 #     showFirstLast = false
 
 [languages]
-[languages.en]
-  languageName = "English"
-  languageCode = "en-us"
-  title = "Bauty salon"
 [languages.sk]
   languageName = "Slovak"
   languageCode = "sk-sk"
+  title = "Bauty salon"
+[languages.en]
+  languageName = "English"
+  languageCode = "en-us"
   title = "Bauty salon"
