@@ -6,11 +6,13 @@ googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "section"]
 
-# [params]
-  # set below parameter to define a favicon
-  # favicon = "favicon.ico"
+[module]
+[[module.imports]]
+path = "github.com/pmikus/hugo-theme-massively"
+
+[params]
   # set to change date format
-  # dateFormat = "2.1.2006"
+  dateFormat = "2.1.2006"
   # backgroundPath = "images/bg.jpg"
 
 # Below parameters can be set to override default post settings
