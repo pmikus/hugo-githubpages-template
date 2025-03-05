@@ -59,8 +59,7 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
         run: |
-          hugo \
-            mod get -u github.com/pmikus/hugo-theme-massively
+          mod get -u github.com/pmikus/hugo-theme-massively
 
       - name: "Build with Hugo"
         env:
