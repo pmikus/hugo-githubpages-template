@@ -55,13 +55,6 @@ jobs:
       - name: "Install Node.js dependencies"
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: "Get the Theme"
-        env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-        run: |
-          hugo \
-            mod get -u github.com/pmikus/hugo-theme-massively
-
       - name: "Build with Hugo"
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
