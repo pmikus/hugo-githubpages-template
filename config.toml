@@ -1,7 +1,6 @@
 languageCode = "en-us"
 title = "Hugo template repository"
 baseURL = "https://pmikus.github.io/"
-theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "section"]
