@@ -1,5 +1,5 @@
 
-baseURL = "https://pmikus.github.io/hugo-theme-massively/"
+baseURL = "https://pmikus.github.io/hugo-githubpages-template/"
 googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "section"]
